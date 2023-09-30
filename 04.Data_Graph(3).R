@@ -1,0 +1,5 @@
+barplot(table(X2023_STB_survey$ Nationality))
+barplot(table(X2023_STB_survey$ Gender))
+barplot(table(X2023_STB_survey$Grade))
+table(X2023_STB_survey$Gender, X2023_STB_survey$Grade)
+barplot(table(X2023_STB_survey$Gender,X2023_STB_survey$Grade))
